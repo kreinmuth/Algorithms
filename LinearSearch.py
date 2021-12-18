@@ -11,7 +11,7 @@ def linearsearch(string_list, x):
 string_list = ['t','u','t','o','r','i','a','l']
 x = 'a'
 
-object = linearsearch(string_list,x)
+object = linearsearch(string_list,x) #Converting the function into an object to then compare if it found a match or not.
 
 if object == -1:
    print("Element not found in List")
